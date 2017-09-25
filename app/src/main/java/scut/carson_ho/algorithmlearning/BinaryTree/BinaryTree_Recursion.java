@@ -16,7 +16,7 @@ public class BinaryTree_Recursion {
      * 作用：构造二叉树
      * 注：必须逆序建立，即：先建立子节点，再逆序往上建立
      * 原因：非叶子节点会使用到下面的节点，而初始化是按顺序初始化的，不逆序建立会报错
-     */
+     */ 
     public Node init(){
         // 结构如下：(由下往上建立)
         //            A
@@ -69,23 +69,29 @@ public class BinaryTree_Recursion {
 
         Stack<Node> stack = new Stack<Node>();
 
-        // 1. 直到当前结点为空 & 栈空时，循环结束
+        // 步骤1：直到当前结点为空 & 栈空时，循环结束
         while(root != null || stack.size()>0){
-            if(root != null){
-                // 2. 从根节点开始，输出当前节点，并将其入栈，
+
+            // 步骤2：判断当前结点是否为空
+              // a. 若不为空，执行3
+              // b. 若为空，执行5
+              if(root != null){
+
+                // 步骤3：输出当前节点，并将其入栈
                 printNode(root);
                 stack.push(root);
 
-                // 3. 置当前结点的左孩子为当前节点，直至其没有左孩子，及当前节点为NULL
+                // 步骤4：置当前结点的左孩子为当前节点
+                // 返回步骤1
                 root = root.getLeftNode();
 
-            // 2. 当前结点为空 && 栈不为空时，循环下面操作
             }else{
 
-                // 出栈栈顶结点
+                // 步骤5：出栈栈顶结点
                 root = stack.pop();
-                // 置当前结点的右孩子为当前节点
+                // 步骤6：置当前结点的右孩子为当前节点
                 root = root.getRightNode();
+                  // 返回步骤1
             }
         }
     }
