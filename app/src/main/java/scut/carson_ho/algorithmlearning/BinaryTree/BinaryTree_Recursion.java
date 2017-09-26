@@ -42,7 +42,7 @@ public class BinaryTree_Recursion {
     }
 
     /**
-     * 内容：先序遍历
+     * 内容：前序遍历
      * 方式：递归
      */
     public void preOrder(Node root){
@@ -56,13 +56,13 @@ public class BinaryTree_Recursion {
         // 3. 遍历左子树
         preOrder(root.getLeftNode());
 
-        // 4. 遍历左子树
+        // 4. 遍历右子树
         preOrder(root.getRightNode());
 
     }
 
     /**
-     * 内容：先序遍历
+     * 内容：前序遍历
      * 方式：非递归
      */
     public static void preOrder_stack(Node root){
@@ -92,6 +92,63 @@ public class BinaryTree_Recursion {
                 // 步骤6：置当前结点的右孩子为当前节点
                 root = root.getRightNode();
                   // 返回步骤1
+            }
+        }
+    }
+
+    /**
+     * 内容：中序遍历
+     * 方式：递归
+     */
+    public void InOrder(Node root){
+        // 1. 判断二叉树结点是否为空；若是，则返回空操作
+        if(root ==null)
+            return;
+
+        // 2. 遍历左子树
+        InOrder(root.getLeftNode());
+
+        // 3. 访问根节点（显示根结点）
+        printNode(root);
+
+        // 4. 遍历右子树
+        InOrder(root.getRightNode());
+
+    }
+
+
+    /**
+     * 内容：中序遍历
+     * 方式：非递归
+     */
+    public static void InOrder_stack(Node root){
+
+        Stack<Node> stack = new Stack<Node>();
+
+        // 步骤1：直到当前结点为空 & 栈空时，循环结束
+        while(root != null || stack.size()>0){
+
+            // 步骤2：判断当前结点是否为空
+            // a. 若不为空，执行3、4
+            // b. 若为空，执行5、6
+            if(root != null){
+
+                // 步骤3：入栈当前结点
+                stack.push(root);
+
+                // 步骤4：置当前结点的左孩子为当前节点
+                // 返回步骤1
+                root = root.getLeftNode();
+
+            }else{
+
+                // 步骤5：出栈栈顶结点
+                root = stack.pop();
+                // 步骤6：输出当前节点
+                printNode(root);
+                // 步骤7：置当前结点的右孩子为当前节点
+                root = root.getRightNode();
+                // 返回步骤1
             }
         }
     }
