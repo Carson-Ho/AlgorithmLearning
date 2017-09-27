@@ -40,7 +40,14 @@ public class MainActivity extends AppCompatActivity {
          */
 //        Log.d(TAG,  "后序遍历（递归）");
 //        tree.PostOrder(root);
-        Log.d(TAG,  "后序遍历（非递归）");
-        tree.PostOrder_stack(root);
+//        Log.d(TAG,  "后序遍历（非递归）");
+//        tree.PostOrder_stack(root);
+
+        /**
+         * 层序遍历
+         */
+        Log.d(TAG,  "层序遍历（递归）");
+        tree.levelTravel(root);
+
     }
 }

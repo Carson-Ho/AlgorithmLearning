@@ -2,6 +2,8 @@ package scut.carson_ho.algorithmlearning.BinaryTree;
 
 import android.util.Log;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -222,9 +224,37 @@ public class BinaryTree_Recursion {
 
     }
 
+    /**
+     * 内容：层序遍历
+     * 方式：非递归（采用队列）
+     */
+    public void levelTravel(Node root){
+        // 创建队列
+        Queue<Node> q=new LinkedList<Node>();
 
+        // 步骤1：判断当前结点是否为空；若是，则返回空操作
+        if(root==null)
+            return;
+        // 步骤2：入队当前结点
+        q.add(root);
 
+        // 步骤3：判断当前队列是否为空，若为空则跳出循环
+        while(!q.isEmpty()){
 
+            // 步骤4：出队队首元素
+            root =  q.poll();
 
+            // 步骤5：输出 出队元素
+            printNode(root);
 
+            // 步骤5：若出队元素有左孩子，则入队其左孩子
+            if(root.getLeftNode()!=null) q.add(root.getLeftNode());
+
+            // 步骤6：若出队元素有右孩子，则入队其右孩子
+            if(root.getRightNode()!=null) q.add(root.getRightNode());
+        }
+    }
 }
+
+
+
