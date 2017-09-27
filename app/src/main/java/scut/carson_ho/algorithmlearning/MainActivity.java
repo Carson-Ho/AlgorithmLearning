@@ -32,9 +32,15 @@ public class MainActivity extends AppCompatActivity {
          */
 //        Log.d(TAG,  "中序遍历（非递归）");
 //        tree.InOrder(root);
+//        Log.d(TAG,  "中序遍历（递归）");
+//        tree.InOrder_stack(root);
 
-        Log.d(TAG,  "中序遍历（递归）");
-        tree.InOrder_stack(root);
-
+        /**
+         * 后序遍历
+         */
+//        Log.d(TAG,  "后序遍历（递归）");
+//        tree.PostOrder(root);
+        Log.d(TAG,  "后序遍历（非递归）");
+        tree.PostOrder_stack(root);
     }
 }

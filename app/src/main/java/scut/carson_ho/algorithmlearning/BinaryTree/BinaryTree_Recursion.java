@@ -154,5 +154,77 @@ public class BinaryTree_Recursion {
     }
 
 
+    /**
+     * 内容：后序遍历
+     * 方式：递归
+     */
+    public void PostOrder(Node root){
+        // 1. 判断二叉树结点是否为空；若是，则返回空操作
+        if(root ==null)
+            return;
+
+        // 2. 遍历左子树
+        PostOrder(root.getLeftNode());
+
+        // 3. 遍历右子树
+        PostOrder(root.getRightNode());
+
+        // 4. 访问根节点（显示根结点）
+        printNode(root);
+
+    }
+
+    /**
+     * 内容：后序遍历
+     * 方式：非递归
+     */
+    public void PostOrder_stack(Node root){
+
+        Stack<Node> stack = new Stack<Node>();
+
+        // 构造1中间栈
+        Stack<Node> output = new Stack<Node>();
+
+        // 步骤1：直到当前结点为空 & 栈空时，循环结束——> 步骤8
+        while(root != null || stack.size()>0){
+
+            // 步骤2：判断当前结点是否为空
+            // a. 若不为空，执行3、4、5
+            // b. 若为空，执行6、7
+            if(root != null){
+
+                // 步骤3：入栈当前结点到中间栈
+                output.push(root);
+
+                // 步骤4：入栈当前结点到普通栈
+                stack.push(root);
+
+                // 步骤5：置当前结点的右孩子为当前节点
+                // 返回步骤1
+                root = root.getRightNode();
+
+            }else{
+
+                // 步骤6：出栈栈顶结点
+                root = stack.pop();
+                // 步骤7：置当前结点的左孩子为当前节点
+                root = root.getLeftNode();
+                // 返回步骤1
+            }
+        }
+
+        // 步骤8：输出中间栈的结点
+        while(output.size()>0){
+            printNode(output.pop());
+
+        }
+
+
+    }
+
+
+
+
+
 
 }
