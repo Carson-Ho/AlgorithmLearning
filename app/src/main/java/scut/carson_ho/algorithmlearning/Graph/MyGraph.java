@@ -1,58 +1,103 @@
 package scut.carson_ho.algorithmlearning.Graph;
 
-import java.util.ArrayList;
-import java.util.List;
+import android.util.Log;
 
 /**
  * Created by Carson_Ho on 17/9/30.
- * 作用：生成图结构，即把顶点和边组合
+ * 作用：创建图的存储方式：邻接矩阵
  */
 
 public class MyGraph {
 
-    private List<GraphNode> nodes ;
+    private static final String TAG = "图遍历的顶点是：";
 
-    // 添加顶点到图中
-    public void initGraph(int n) {
-            nodes = new ArrayList<GraphNode>();
+    /**
+     * 设置变量
+     */
+    private int vexnum;  // 存放图中顶点数量
+    private char[] vertices;  // 存放结点数据
+    private int [][] arcs;  // 存放图的所有边
+    private boolean[] visited;// 记录节点是否已被遍历
 
-        GraphNode node = null;
-        for (int i = 0; i < n; i++) {
-            node = new GraphNode(String.valueOf(i));
-            nodes.add(node);
+    /**
+     * 初始化图的顶点数量、数据 & 边
+     */
+    public MyGraph(int n){
+        vexnum = n;
+        vertices = new char[n];
+        visited = new boolean[n];
+        arcs = new int[n][n];
+    }
+
+    /**
+     * 添加边(无向图)
+     */
+
+    public void addEdge(int i, int j) {
+        // 边的头尾不能为同一节点
+        if (i == j) return;
+
+        arcs[i][j] = 1;
+        arcs[j][i] = 1;
+    }
+
+    /**
+     * 设置顶点数据
+     */
+    public void setVertices(char[] vertices) {
+        this.vertices = vertices;
+    }
+
+    /**
+     * 访问该顶点
+     */
+    public void visit(int i){
+        Log.d(TAG,  vertices[i] + " ");
+    }
+
+    /**
+     * 邻接矩阵的深度优先搜索递归算法
+     * 即，从第i个顶点开始深度优先遍历
+     */
+    private void traverse(int i){
+
+        // 1. 标记第i个顶点已遍历
+        visited[i] = true;
+
+        // 2. （输出）访问当前遍历的顶点
+        visit(i);
+
+        // 3. 遍历邻接矩阵中第i个顶点的所有邻接顶点
+        for(int j=0;j<vexnum;j++){
+
+            // a. 若当前顶点的邻接顶点存在 & 未被访问，则递归 深度优先搜索 算法
+
+            if(arcs[i][j]==1 && visited[j]==false){
+                // b. 将当前顶点的邻接顶点作为当前顶点，递归 深度优先搜索 算法
+                traverse(j);
+            }
         }
     }
 
+    /**
+     * 图的深度优先遍历（递归）
+     */
+    public void DFSTraverse(){
+        // 1. 初始化所有顶点的访问标记
+        // 即，都是未访问状态
+        for (int i = 0; i < vexnum; i++) {
+            visited[i] = false;
+        }
 
-    public void initGraph(int n, boolean b) {
-        initGraph(n);
-        GraphEdge edge01 = new GraphEdge(nodes.get(0), nodes.get(1));
-        GraphEdge edge02 = new GraphEdge(nodes.get(0), nodes.get(2));
-        GraphEdge edge13 = new GraphEdge(nodes.get(1), nodes.get(3));
-        GraphEdge edge14 = new GraphEdge(nodes.get(1), nodes.get(4));
-        GraphEdge edge25 = new GraphEdge(nodes.get(2), nodes.get(5));
-        GraphEdge edge26 = new GraphEdge(nodes.get(2), nodes.get(6));
-        GraphEdge edge37 = new GraphEdge(nodes.get(3), nodes.get(7));
-        GraphEdge edge47 = new GraphEdge(nodes.get(4), nodes.get(7));
-        GraphEdge edge56 = new GraphEdge(nodes.get(5), nodes.get(6));
+        // 2. 深度优先遍历顶点（从未被访问的顶点开始）
+        for(int i=0;i < vexnum;i++){
 
+            if(visited[i]==false){
 
-        nodes.get(0).addEdgeList(edge01);
-        nodes.get(0).addEdgeList(edge02);
-        nodes.get(1).addEdgeList(edge13);
-        nodes.get(1).addEdgeList(edge14);
-        nodes.get(2).addEdgeList(edge25);
-        nodes.get(2).addEdgeList(edge26);
-        nodes.get(3).addEdgeList(edge37);
-        nodes.get(4).addEdgeList(edge47);
-        nodes.get(5).addEdgeList(edge56);
+                // 若是连通图，只会执行一次
+                traverse(i);
+            }
+        }
     }
 
-    public void initGraph() {
-        initGraph(8, false);
-    }
-
-    public List<GraphNode> getGraphNodes() {
-        return nodes;
-    }
 }
