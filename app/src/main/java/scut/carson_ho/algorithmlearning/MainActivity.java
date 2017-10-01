@@ -92,9 +92,13 @@ public class MainActivity extends AppCompatActivity {
         g.addEdge(8, 2);
         g.addEdge(8, 3);
 
+//        // 步骤4： 执行 图的深度优先遍历（递归）
+//        Log.d(TAG,  "深度优先遍历（递归）");
+//        g.DFSTraverse();
+
         // 步骤4： 执行 图的深度优先遍历（递归）
-        Log.d(TAG,  "深度优先遍历（递归）");
-        g.DFSTraverse();
+        Log.d(TAG,  "广度优先遍历（非递归）");
+        g.BFS();
 
 
     }
