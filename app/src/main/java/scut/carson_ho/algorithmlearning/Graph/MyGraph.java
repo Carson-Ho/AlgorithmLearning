@@ -1,7 +1,5 @@
 package scut.carson_ho.algorithmlearning.Graph;
 
-import android.util.Log;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -41,8 +39,11 @@ public class MyGraph {
         // 边的头尾不能为同一节点
         if (i == j) return;
 
+        // 将邻接矩阵的第i行第j列的元素值置为1；
         arcs[i][j] = 1;
+        // 将邻接矩阵的第j行第i列的元素值置为1；
         arcs[j][i] = 1;
+        // 设置为1代表2顶点之间存在 边 （设置相等原因 = 邻接矩阵 是对称的）
     }
 
     /**
@@ -56,7 +57,7 @@ public class MyGraph {
      * 访问该顶点
      */
     public void visit(int i){
-        Log.d(TAG,  vertices[i] + " ");
+        System.out.print(vertices[i] + " ");
     }
 
     /**
@@ -149,7 +150,6 @@ public class MyGraph {
     }
 
 
-
     /**
      * 内容：层序遍历
      * 方式：非递归（采用队列）
@@ -157,7 +157,7 @@ public class MyGraph {
     public void BFS(){
 
         // 1. 初始化所有顶点的访问标记
-        // 即，都是未访问状态
+        // 即，设置为未访问状态
         for (int i = 0; i < vexnum; i++) {
             visited[i] = false;
         }
@@ -165,45 +165,49 @@ public class MyGraph {
         // 2. 创建队列
         Queue<Integer> q=new LinkedList<Integer>();
 
-        // 3. 对每个顶点做循环
+        // 3. 对所有顶点做遍历循环（从第1个顶点开始）
+        // 若遍历完毕，则结束整个层序遍历
         for(int i=0;i < vexnum;i++){
 
-            // 4. 若该顶点未被访问，就进行处理
+            // 4. 若当前顶点未被访问，就进行处理
+            // 若当前顶点已被访问，则回到3进行判断
             if( visited[i]==false ) {
 
-                // 5. 标记该顶点已遍历
-                visited[i] = true;
-
-                // 6. （输出）访问当前遍历的顶点
+                // 5. （输出）访问当前顶点
                 visit(i);
+
+                // 6. 标记当前顶点已被访问
+                visited[i] = true;
 
                 // 7. 入队当前顶点
                 q.add(i);
 
-                // 8.判断当前队列是否为空，若为空则跳出循环
+                // 8.判断当前队列是否为空
+                // 若为空则跳出循环，回到3进行判断
                 while(!q.isEmpty()) {
 
-                    // 9. 出队 & 赋值给当前顶点
+                    // 9. 出队队首元素 & 将出队的元素 赋值为 当前顶点
                     i =  q.poll();
 
-                    // 10. 遍历邻接矩阵中第i个顶点的所有邻接顶点
+                    // 10. 遍历当前顶点的所有邻接点
+                    // 若遍历完毕，则回到8判断
                     for(int j=0; j< vexnum ; j++){
 
-                        // a. 若当前顶点的邻接顶点存在 & 未被访问，则执行处理
+                        // 11. 若当前顶点的邻接顶点存在 & 未被访问，则执行处理
+                        // 否则回到10判断
                         if(arcs[i][j]==1 && visited[j]==false){
 
-                            // b. 标记该邻接顶点已遍历
-                            visited[j] = true;
-
-                            // b. （输出）访问该邻接顶点
+                            // 12. （输出）访问当前顶点的邻接顶点
                             visit(j);
 
-                            // c. 入队当前邻接顶点
+                            // 13. 标记当前顶点的邻接顶点已被访问
+                            visited[j] = true;
+
+                            // 14. 入队当前顶点的邻接顶点
                             q.add(j);
 
                         }
                     }
-
 
                 }
 

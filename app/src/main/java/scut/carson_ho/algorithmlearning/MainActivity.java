@@ -2,7 +2,6 @@ package scut.carson_ho.algorithmlearning;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 import scut.carson_ho.algorithmlearning.BinaryTree.BinaryTree_Recursion;
 import scut.carson_ho.algorithmlearning.BinaryTree.Node;
@@ -97,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
 //        g.DFSTraverse();
 
         // 步骤4： 执行 图的深度优先遍历（递归）
-        Log.d(TAG,  "广度优先遍历（非递归）");
+        System.out.print("广度优先遍历（非递归）");
         g.BFS();
 
 
