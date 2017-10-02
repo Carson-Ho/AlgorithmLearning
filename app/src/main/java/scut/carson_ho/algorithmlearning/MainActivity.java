@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 步骤4： 执行 图的深度优先遍历（递归）
         System.out.print("广度优先遍历（非递归）");
+        System.out.print("广度优先遍历（非递归）");
         g.BFS();
 
 
