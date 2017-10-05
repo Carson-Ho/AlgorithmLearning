@@ -99,6 +99,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.print("广度优先遍历（非递归）");
         System.out.print("广度优先遍历（非递归）");
         g.BFS();
+        g.BFS();
+        g.BFS();
 
 
     }
