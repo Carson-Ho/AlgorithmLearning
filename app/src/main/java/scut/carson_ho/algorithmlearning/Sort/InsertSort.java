@@ -6,7 +6,7 @@ package scut.carson_ho.algorithmlearning.Sort;
 
 public class InsertSort {
     /**
-     * 简单选择排序
+     * 直接插入排序
      */
     public static void insertSort(int[] srcArray) {
 
