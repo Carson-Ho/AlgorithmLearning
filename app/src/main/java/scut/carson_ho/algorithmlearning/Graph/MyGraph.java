@@ -1,7 +1,5 @@
 package scut.carson_ho.algorithmlearning.Graph;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -10,8 +8,6 @@ import java.util.Stack;
  */
 
 public class MyGraph {
-
-    private static final String TAG = "图遍历的顶点是：";
 
     /**
      * 设置变量
@@ -60,8 +56,30 @@ public class MyGraph {
         System.out.print(vertices[i] + " ");
     }
 
+
     /**
-     * 邻接矩阵的深度优先搜索递归算法
+     * 图的深度优先遍历（递归）
+     */
+    public void DFSTraverse(){
+        // 1. 初始化所有顶点的访问标记
+        // 即，都是未访问状态
+        for (int i = 0; i < vexnum; i++) {
+            visited[i] = false;
+        }
+
+        // 2. 深度优先遍历顶点（从未被访问的顶点开始）
+        for(int i=0;i < vexnum;i++){
+
+            if(visited[i]==false){
+
+                // 若是连通图，只会执行一次
+                traverse(i); // ->>看关注1
+            }
+        }
+    }
+
+    /**
+     * 关注1：邻接矩阵的深度优先搜索递归算法
      * 即，从第i个顶点开始深度优先遍历
      */
     private void traverse(int i){
@@ -85,28 +103,8 @@ public class MyGraph {
     }
 
     /**
-     * 图的深度优先遍历（递归）
-     */
-    public void DFSTraverse(){
-        // 1. 初始化所有顶点的访问标记
-        // 即，都是未访问状态
-        for (int i = 0; i < vexnum; i++) {
-            visited[i] = false;
-        }
-
-        // 2. 深度优先遍历顶点（从未被访问的顶点开始）
-        for(int i=0;i < vexnum;i++){
-
-            if(visited[i]==false){
-
-                // 若是连通图，只会执行一次
-                traverse(i);
-            }
-        }
-    }
-
-    /**
      * 图的深度优先遍历（非递归）
+     * 采用 栈实现
      */
     public void DFSTraverse2(){
         // 1. 初始化顶点访问标记
@@ -149,74 +147,127 @@ public class MyGraph {
         }
     }
 
-
     /**
-     * 内容：层序遍历
-     * 方式：非递归（采用队列）
+     * 执行深度优先遍历算法（递归 & 非递归）
      */
-    public void BFS(){
+    public static void main(String[] args) {
 
-        // 1. 初始化所有顶点的访问标记
-        // 即，设置为未访问状态
-        for (int i = 0; i < vexnum; i++) {
-            visited[i] = false;
-        }
+// 步骤1： 初始化图的结构（顶点数量 = 9
+        MyGraph g = new MyGraph(9);
+        // 步骤2： 设置顶点数据
+        char[] vertices = {'A','B','C','D','E','F','G','H','I'};
+        g.setVertices(vertices);
 
-        // 2. 创建队列
-        Queue<Integer> q=new LinkedList<Integer>();
+        // 步骤3： 设置边
+        g.addEdge(0, 1);
+        g.addEdge(0, 5);
+        g.addEdge(1, 0);
+        g.addEdge(1, 2);
+        g.addEdge(1, 6);
+        g.addEdge(1, 8);
+        g.addEdge(2, 1);
+        g.addEdge(2, 3);
+        g.addEdge(2, 8);
+        g.addEdge(3, 2);
+        g.addEdge(3, 4);
+        g.addEdge(3, 6);
+        g.addEdge(3, 7);
+        g.addEdge(3, 8);
+        g.addEdge(4, 3);
+        g.addEdge(4, 5);
+        g.addEdge(4, 7);
+        g.addEdge(5, 0);
+        g.addEdge(5, 4);
+        g.addEdge(5, 6);
+        g.addEdge(6, 1);
+        g.addEdge(6, 3);
+        g.addEdge(6, 5);
+        g.addEdge(6, 7);
+        g.addEdge(7, 3);
+        g.addEdge(7, 4);
+        g.addEdge(7, 6);
+        g.addEdge(8, 1);
+        g.addEdge(8, 2);
+        g.addEdge(8, 3);
 
-        // 3. 对所有顶点做遍历循环（从第1个顶点开始）
-        // 若遍历完毕，则结束整个层序遍历
-        for(int i=0;i < vexnum;i++){
+        // 步骤4： 执行 图的深度优先遍历（递归）
+        System.out.println("深度优先遍历（递归）");
+        g.DFSTraverse();
 
-            // 4. 若当前顶点未被访问，就进行处理
-            // 若当前顶点已被访问，则回到3进行判断
-            if( visited[i]==false ) {
-
-                // 5. （输出）访问当前顶点
-                visit(i);
-
-                // 6. 标记当前顶点已被访问
-                visited[i] = true;
-
-                // 7. 入队当前顶点
-                q.add(i);
-
-                // 8.判断当前队列是否为空
-                // 若为空则跳出循环，回到3进行判断
-                while(!q.isEmpty()) {
-
-                    // 9. 出队队首元素 & 将出队的元素 赋值为 当前顶点
-                    i =  q.poll();
-
-                    // 10. 遍历当前顶点的所有邻接点
-                    // 若遍历完毕，则回到8判断
-                    for(int j=0; j< vexnum ; j++){
-
-                        // 11. 若当前顶点的邻接顶点存在 & 未被访问，则执行处理
-                        // 否则回到10判断
-                        if(arcs[i][j]==1 && visited[j]==false){
-
-                            // 12. （输出）访问当前顶点的邻接顶点
-                            visit(j);
-
-                            // 13. 标记当前顶点的邻接顶点已被访问
-                            visited[j] = true;
-
-                            // 14. 入队当前顶点的邻接顶点
-                            q.add(j);
-
-                        }
-                    }
-
-                }
-
-            }
-        }
-
-
-
+        System.out.println("深度优先遍历（非递归）");
+        g.DFSTraverse2();
 
     }
+
+
+
+//    /**
+//     * 内容：层序遍历
+//     * 方式：非递归（采用队列）
+//     */
+//    public void BFS(){
+//
+//        // 1. 初始化所有顶点的访问标记
+//        // 即，设置为未访问状态
+//        for (int i = 0; i < vexnum; i++) {
+//            visited[i] = false;
+//        }
+//
+//        // 2. 创建队列
+//        Queue<Integer> q=new LinkedList<Integer>();
+//
+//        // 3. 对所有顶点做遍历循环（从第1个顶点开始）
+//        // 若遍历完毕，则结束整个层序遍历
+//        for(int i=0;i < vexnum;i++){
+//
+//            // 4. 若当前顶点未被访问，就进行处理
+//            // 若当前顶点已被访问，则回到3进行判断
+//            if( visited[i]==false ) {
+//
+//                // 5. （输出）访问当前顶点
+//                visit(i);
+//
+//                // 6. 标记当前顶点已被访问
+//                visited[i] = true;
+//
+//                // 7. 入队当前顶点
+//                q.add(i);
+//
+//                // 8.判断当前队列是否为空
+//                // 若为空则跳出循环，回到3进行判断
+//                while(!q.isEmpty()) {
+//
+//                    // 9. 出队队首元素 & 将出队的元素 赋值为 当前顶点
+//                    i =  q.poll();
+//
+//                    // 10. 遍历当前顶点的所有邻接点
+//                    // 若遍历完毕，则回到8判断
+//                    for(int j=0; j< vexnum ; j++){
+//
+//                        // 11. 若当前顶点的邻接顶点存在 & 未被访问，则执行处理
+//                        // 否则回到10判断
+//                        if(arcs[i][j]==1 && visited[j]==false){
+//
+//                            // 12. （输出）访问当前顶点的邻接顶点
+//                            visit(j);
+//
+//                            // 13. 标记当前顶点的邻接顶点已被访问
+//                            visited[j] = true;
+//
+//                            // 14. 入队当前顶点的邻接顶点
+//                            q.add(j);
+//
+//                        }
+//                    }
+//
+//                }
+//
+//            }
+//        }
+//
+//
+//
+//
+//    }
 
 }
