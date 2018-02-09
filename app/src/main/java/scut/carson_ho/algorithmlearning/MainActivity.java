@@ -10,6 +10,9 @@ import scut.carson_ho.algorithmlearning.Graph.MyGraph;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "图的遍历算法：";
+    private static final String TAG1 = "图的遍历算法：";
+    private static final String TAG2 = "图的遍历算法：";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
