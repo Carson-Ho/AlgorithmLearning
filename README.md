@@ -14,6 +14,8 @@
 
 [数组中重复的数字（可修改 & 不可修改数组）（3）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%88%E5%8F%AF%E4%BF%AE%E6%94%B9%20%26%20%E4%B8%8D%E5%8F%AF%E4%BF%AE%E6%94%B9%E6%95%B0%E7%BB%84%EF%BC%89%EF%BC%883%EF%BC%89.md)
 
+[二维数组中的查找（4）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%EF%BC%884%EF%BC%89.md)
+
 
 # 2. 字符串
 # 3. 链表
