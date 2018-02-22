@@ -62,6 +62,8 @@
 
 [实现单例模式（2）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%EF%BC%882%EF%BC%89.md)
 
+[数值的整数次方（16）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9%EF%BC%8816%EF%BC%89.md)
+
 
 # 10. 面试技巧
 [面试技巧详解](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7.md)
