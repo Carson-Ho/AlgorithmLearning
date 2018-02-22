@@ -28,6 +28,8 @@
 # 4. 二叉树
 [重建二叉树（7）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%887%EF%BC%89.md)
 
+[二叉树的下一个节点（8）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E8%8A%82%E7%82%B9%EF%BC%888%EF%BC%89.md)
+
 # 5. 栈 & 队列
 # 6. 哈希
 # 7. 查找
