@@ -35,6 +35,8 @@
 
 [删除链表的节点（重复 / 不重复）（18）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9%EF%BC%88%E9%87%8D%E5%A4%8D%20:%20%E4%B8%8D%E9%87%8D%E5%A4%8D%EF%BC%89%EF%BC%8818%EF%BC%89.md)
 
+[链表中倒数第k个节点（22）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9%EF%BC%8822%EF%BC%89.md)
+
 # 4. 二叉树
 [重建二叉树（7）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%887%EF%BC%89.md)
 
