@@ -24,12 +24,14 @@
 
 [正则表达式匹配（19）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D%EF%BC%8819%EF%BC%89.md)
 
+[表示数字的字符串（20）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%AD%97%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8820%EF%BC%89.md)
+
 
 # 3. 链表
 
 [从尾到头打印链表(6)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8%EF%BC%886%EF%BC%89.md)
 
-[删除链表的节点（重复 : 不重复）（18）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9%EF%BC%88%E9%87%8D%E5%A4%8D%20:%20%E4%B8%8D%E9%87%8D%E5%A4%8D%EF%BC%89%EF%BC%8818%EF%BC%89.md)
+[删除链表的节点（重复 / 不重复）（18）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9%EF%BC%88%E9%87%8D%E5%A4%8D%20:%20%E4%B8%8D%E9%87%8D%E5%A4%8D%EF%BC%89%EF%BC%8818%EF%BC%89.md)
 
 # 4. 二叉树
 [重建二叉树（7）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%887%EF%BC%89.md)
