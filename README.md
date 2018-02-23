@@ -109,7 +109,7 @@
 
 [平衡二叉树（55-2）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%8855-2%EF%BC%89.md)
 
-[树中两个节点的最低公共祖先（68）]()
+[树中两个节点的最低公共祖先（68）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%A0%91%E4%B8%AD%E4%B8%A4%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E4%BD%8E%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88%EF%BC%8868%EF%BC%89.md)
 
 
 # 5. 栈 & 队列
