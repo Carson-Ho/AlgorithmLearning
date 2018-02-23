@@ -57,6 +57,10 @@
 
 [第一个只出现一次的字符、字符流中第1个只出现1次的字符、删除1个字符串中的重复字符、删除2个字符串中的重复字符、变位数](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E5%AD%97%E7%AC%A6%EF%BC%8850%EF%BC%89.md)
 
+[翻转字符串 之 翻转单词顺序（58）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%20%E4%B9%8B%20%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%8858%EF%BC%89.md)
+
+[翻转字符串 之 左旋转字符串（58-1）]()
+
 # 3. 链表
 
 [从尾到头打印链表(6)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8%EF%BC%886%EF%BC%89.md)
