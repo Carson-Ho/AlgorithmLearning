@@ -84,6 +84,8 @@
 # 7. 查找
 [找出旋转数组的最小数字(11)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%89%BE%E5%87%BA%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97%EF%BC%8811%EF%BC%89.md)
 
+[最小的k个数（40）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%9C%80%E5%B0%8F%E7%9A%84k%E4%B8%AA%E6%95%B0%EF%BC%8840%EF%BC%89.md)
+
 # 8. 排序
 
 # 9. 递归 & 循环
