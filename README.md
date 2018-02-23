@@ -56,7 +56,9 @@
 
 [从上到下打印二叉树：不分行、分行 & 之字形(32)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E4%B8%8D%E5%88%86%E8%A1%8C%E3%80%81%E5%88%86%E8%A1%8C%20%26%20%E4%B9%8B%E5%AD%97%E5%BD%A2%EF%BC%8832%EF%BC%89.md)
 
-[二叉搜索树的后序遍历、前序遍历](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%81%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md)
+[二叉搜索树的后序遍历、前序遍历（33）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%81%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md)
+
+[二叉树中和为某一值的路径（34）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84%EF%BC%8834%EF%BC%89.md)
 
 # 5. 栈 & 队列
 [用2个栈实现队列 or 用2个队列实现栈（9）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97%EF%BC%889%EF%BC%89.md)
