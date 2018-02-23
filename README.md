@@ -92,7 +92,7 @@
 
 [数据流中的中位数（41）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0%EF%BC%8841%EF%BC%89.md)
 
-[数字序列中某1位的数字（4）]()
+[数字序列中某1位的数字（44）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E5%AD%97%E5%BA%8F%E5%88%97%E4%B8%AD%E6%9F%901%E4%BD%8D%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%8844%EF%BC%89.md)
 # 8. 排序
 
 # 9. 递归 & 循环
