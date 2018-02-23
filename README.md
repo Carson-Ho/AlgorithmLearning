@@ -43,6 +43,8 @@
 
 [最长不含重复字符的子字符串(48)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%9C%80%E9%95%BF%E4%B8%8D%E5%90%AB%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8848%EF%BC%89.md)
 
+[第一个只出现一次的字符、字符流中第1个只出现1次的字符、删除1个字符串中的重复字符、删除2个字符串中的重复字符、变位数]()
+
 # 3. 链表
 
 [从尾到头打印链表(6)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8%EF%BC%886%EF%BC%89.md)
@@ -128,6 +130,8 @@
 [顺时针打印矩阵（29）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5%EF%BC%8829%EF%BC%89.md)
 
 [1~n 整数中1出现的次数(43)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/1~n%20%E6%95%B4%E6%95%B0%E4%B8%AD1%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0(43).md)
+
+[丑数（49）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%B8%91%E6%95%B0%EF%BC%8849%EF%BC%89.md)
 
 
 # 10. 面试技巧
