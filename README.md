@@ -30,6 +30,7 @@
 
 [字符串的排列（38）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97%EF%BC%8838%EF%BC%89.md)
 
+[字符串的组合（38-2）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E7%BB%84%E5%90%88%EF%BC%8838-2%EF%BC%89.md)
 
 # 3. 链表
 
