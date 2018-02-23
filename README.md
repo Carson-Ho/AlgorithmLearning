@@ -110,6 +110,7 @@
 
 ### 10.2 动态规划 & 贪婪算法
 [剪绳子（14）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%89%AA%E7%BB%B3%E5%AD%90%EF%BC%8814%EF%BC%89.md)
+[礼物的最大价值（47）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%A4%BC%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC(47).md)
 
 ### 10.3 位运算
 
