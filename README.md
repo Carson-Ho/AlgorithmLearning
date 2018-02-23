@@ -154,7 +154,9 @@
 
 [丑数（49）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%B8%91%E6%95%B0%EF%BC%8849%EF%BC%89.md)
 
-[和为 s 的数字（57）]()
+[和为 s 的数字（57）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%92%8C%E4%B8%BA%20s%20%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%8857%EF%BC%89.md)
+
+[和为 s 的连续正数序列（57-1）]()
 
 
 # 10. 面试技巧
