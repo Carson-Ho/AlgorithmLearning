@@ -36,6 +36,8 @@
 
 [数组中数值与下标相等的元素(53-3)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%80%BC%E4%B8%8E%E4%B8%8B%E6%A0%87%E7%9B%B8%E7%AD%89%E7%9A%84%E5%85%83%E7%B4%A0%EF%BC%8853-3%EF%BC%89.md)
 
+[数组中只出现一次的两个数字（56-1）]()
+
 # 2. 字符串
 [替换 字符串中的空格（5）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%9B%BF%E6%8D%A2%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%A9%BA%E6%A0%BC%EF%BC%885%EF%BC%89.md)
 
@@ -97,7 +99,7 @@
 
 [二叉树的深度（55）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6%EF%BC%8855%EF%BC%89.md)
 
-[平衡二叉树（55-2）]()
+[平衡二叉树（55-2）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%8855-2%EF%BC%89.md)
 
 
 # 5. 栈 & 队列
