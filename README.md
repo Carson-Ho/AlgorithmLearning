@@ -28,6 +28,8 @@
 
 [表示数字的字符串（20）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%AD%97%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8820%EF%BC%89.md)
 
+[字符串的排列（38）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97%EF%BC%8838%EF%BC%89.md)
+
 
 # 3. 链表
 
