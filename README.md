@@ -168,7 +168,7 @@
 
 [和为 s 的连续正数序列（57-1）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%92%8C%E4%B8%BA%20s%20%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%AD%A3%E6%95%B0%E5%BA%8F%E5%88%97%EF%BC%8857-1%EF%BC%89.md)
 
-
+[扑克牌的顺子（61）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%89%91%E5%85%8B%E7%89%8C%E7%9A%84%E9%A1%BA%E5%AD%90%EF%BC%8861%EF%BC%89.md)
 
 
 # 10. 面试技巧
