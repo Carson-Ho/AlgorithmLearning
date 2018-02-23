@@ -61,6 +61,8 @@
 
 [翻转字符串 之 左旋转字符串（58-1）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%20%E4%B9%8B%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8858-1%EF%BC%89.md)
 
+[把字符串转换成整数（67）]()
+
 # 3. 链表
 
 [从尾到头打印链表(6)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8%EF%BC%886%EF%BC%89.md)
@@ -178,7 +180,7 @@
 
 [股票的最大利润(63)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6%EF%BC%8863%EF%BC%89.md)
 
-[构建乘积数组（66）]()
+[构建乘积数组（66）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%9E%84%E5%BB%BA%E4%B9%98%E7%A7%AF%E6%95%B0%E7%BB%84%EF%BC%8866%EF%BC%89.md)
 
 
 # 10. 面试技巧
