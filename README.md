@@ -61,7 +61,7 @@
 
 [翻转字符串 之 左旋转字符串（58-1）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%20%E4%B9%8B%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8858-1%EF%BC%89.md)
 
-[把字符串转换成整数（67）]()
+[把字符串转换成整数（67）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B4%E6%95%B0%EF%BC%8867%EF%BC%89.md)
 
 # 3. 链表
 
@@ -108,6 +108,8 @@
 [二叉树的深度（55）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6%EF%BC%8855%EF%BC%89.md)
 
 [平衡二叉树（55-2）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%8855-2%EF%BC%89.md)
+
+[树中两个节点的最低公共祖先（68）]()
 
 
 # 5. 栈 & 队列
