@@ -115,7 +115,9 @@
 
 [栈的压入、弹出序列（31）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E3%80%81%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97%EF%BC%8831%EF%BC%89.md)
 
-[队列的最大值（59-2）]()
+[滑动窗口的最大值（59）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8859%EF%BC%89.md)
+
+[队列的最大值（59-2）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%98%9F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8859-1%EF%BC%89.md)
 
 # 6. 哈希
 
@@ -132,6 +134,8 @@
 # 9. 递归 & 循环
 
 [斐波那契数列 - 青蛙跳台阶（10）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%EF%BC%8810%EF%BC%89.md)
+
+[n个骰子的点数（60）]()
 
 # 10. 其他
 ### 10.1 回溯法
@@ -164,7 +168,7 @@
 
 [和为 s 的连续正数序列（57-1）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%92%8C%E4%B8%BA%20s%20%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%AD%A3%E6%95%B0%E5%BA%8F%E5%88%97%EF%BC%8857-1%EF%BC%89.md)
 
-[滑动窗口的最大值（59）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8859%EF%BC%89.md)
+
 
 
 # 10. 面试技巧
