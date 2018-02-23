@@ -137,6 +137,8 @@
 
 [n个骰子的点数（60）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0%EF%BC%8860%EF%BC%89.md)
 
+[求1+2+....+n（64）]()
+
 # 10. 其他
 ### 10.1 回溯法
 [矩阵中的最短路径（12）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%EF%BC%8812%EF%BC%89.md)
@@ -171,6 +173,8 @@
 [扑克牌的顺子（61）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%89%91%E5%85%8B%E7%89%8C%E7%9A%84%E9%A1%BA%E5%AD%90%EF%BC%8861%EF%BC%89.md)
 
 [圆圈中最后剩下的数字（约瑟夫环问题）（62）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%88%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%89%EF%BC%8862%EF%BC%89.md)
+
+[股票的最大利润(63)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6%EF%BC%8863%EF%BC%89.md)
 
 
 # 10. 面试技巧
