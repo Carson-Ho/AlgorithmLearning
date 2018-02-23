@@ -153,7 +153,7 @@
 
 [二进制中 1的个数（15）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD%201%E7%9A%84%E4%B8%AA%E6%95%B0%EF%BC%8815%EF%BC%89.md)
 
-[不用加减乘除 实现 加法(65)]()
+[不用加减乘除 实现 加法(65)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%20%E5%AE%9E%E7%8E%B0%20%E5%8A%A0%E6%B3%95%EF%BC%8865%EF%BC%89.md)
 
 ### 10.4 其他类型
 [赋值运算符函数(1)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%9D%A2%E8%AF%95%E9%A2%981%EF%BC%9A%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6%E5%87%BD%E6%95%B0.md)
@@ -177,6 +177,8 @@
 [圆圈中最后剩下的数字（约瑟夫环问题）（62）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%88%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%89%EF%BC%8862%EF%BC%89.md)
 
 [股票的最大利润(63)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6%EF%BC%8863%EF%BC%89.md)
+
+[构建乘积数组（66）]()
 
 
 # 10. 面试技巧
