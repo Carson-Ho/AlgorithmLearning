@@ -95,7 +95,9 @@
 
 [二叉搜索树的第k大节点（54）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9%EF%BC%8854%EF%BC%89.md)
 
-[二叉树的深度（55）]()
+[二叉树的深度（55）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6%EF%BC%8855%EF%BC%89.md)
+
+[平衡二叉树（55-2）]()
 
 
 # 5. 栈 & 队列
