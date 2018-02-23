@@ -86,6 +86,7 @@
 
 [最小的k个数（40）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%9C%80%E5%B0%8F%E7%9A%84k%E4%B8%AA%E6%95%B0%EF%BC%8840%EF%BC%89.md)
 
+[数据流中的中位数（41）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0%EF%BC%8841%EF%BC%89.md)
 # 8. 排序
 
 # 9. 递归 & 循环
