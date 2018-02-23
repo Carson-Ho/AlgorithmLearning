@@ -135,7 +135,7 @@
 
 [斐波那契数列 - 青蛙跳台阶（10）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%EF%BC%8810%EF%BC%89.md)
 
-[n个骰子的点数（60）]()
+[n个骰子的点数（60）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0%EF%BC%8860%EF%BC%89.md)
 
 # 10. 其他
 ### 10.1 回溯法
