@@ -137,7 +137,7 @@
 
 [n个骰子的点数（60）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0%EF%BC%8860%EF%BC%89.md)
 
-[求1+2+....+n（64）]()
+[求1+2+....+n（64）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%B1%821+2+....+n%EF%BC%8864%EF%BC%89.md)
 
 # 10. 其他
 ### 10.1 回溯法
@@ -152,6 +152,8 @@
 ### 10.3 位运算
 
 [二进制中 1的个数（15）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD%201%E7%9A%84%E4%B8%AA%E6%95%B0%EF%BC%8815%EF%BC%89.md)
+
+[不用加减乘除 实现 加法(65)]()
 
 ### 10.4 其他类型
 [赋值运算符函数(1)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E9%9D%A2%E8%AF%95%E9%A2%981%EF%BC%9A%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6%E5%87%BD%E6%95%B0.md)
