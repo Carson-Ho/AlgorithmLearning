@@ -28,6 +28,8 @@
 
 [把数组排成最小的数(45)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%8A%8A%E6%95%B0%E7%BB%84%E6%8E%92%E6%88%90%E6%9C%80%E5%B0%8F%E7%9A%84%E6%95%B0(45).md)
 
+[数组中的逆序对（51）]()
+
 # 2. 字符串
 [替换 字符串中的空格（5）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%9B%BF%E6%8D%A2%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%A9%BA%E6%A0%BC%EF%BC%885%EF%BC%89.md)
 
@@ -43,7 +45,7 @@
 
 [最长不含重复字符的子字符串(48)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%9C%80%E9%95%BF%E4%B8%8D%E5%90%AB%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8848%EF%BC%89.md)
 
-[第一个只出现一次的字符、字符流中第1个只出现1次的字符、删除1个字符串中的重复字符、删除2个字符串中的重复字符、变位数]()
+[第一个只出现一次的字符、字符流中第1个只出现1次的字符、删除1个字符串中的重复字符、删除2个字符串中的重复字符、变位数](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E5%AD%97%E7%AC%A6%EF%BC%8850%EF%BC%89.md)
 
 # 3. 链表
 
