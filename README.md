@@ -36,7 +36,7 @@
 
 [数组中数值与下标相等的元素(53-3)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%80%BC%E4%B8%8E%E4%B8%8B%E6%A0%87%E7%9B%B8%E7%AD%89%E7%9A%84%E5%85%83%E7%B4%A0%EF%BC%8853-3%EF%BC%89.md)
 
-[数组中只出现一次的两个数字（56）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E7%BB%84%E4%B8%AD%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97(56-1).md)
+[数组中只出现一次的两个数字（56）](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E7%BB%84%E4%B8%AD%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97(56).md)
 
 [数组中唯一出现一次的数字(56-1)](https://github.com/Carson-Ho/AlgorithmLearning/blob/master/%E5%85%B7%E4%BD%93%E8%AE%B2%E8%A7%A3/%E6%95%B0%E7%BB%84%E4%B8%AD%E5%94%AF%E4%B8%80%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%8856-1%EF%BC%89.md)
 
