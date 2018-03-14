@@ -7,7 +7,53 @@ package scut.carson_ho.algorithmlearning.Sort;
 public class MergeSort {
 
     /**
-     * 归并排序算法实现
+     * 归并排序算法实现：非递归
+     * 参数说明：
+     * @param arr = 需排序的数组序列
+     */
+
+    public static void mergeSort1(int[] arr) {
+
+        int len = arr.length;
+        int k = 1;
+
+        while(k < len)
+        {
+            MergePass(arr, k, len);
+            k *= 2; // 一组组归并：1、2、4、8、16
+        }
+
+    }
+
+    /**
+     * 辅助算法
+     * 作用：归并 数组中的相邻长度 = k的元素
+     */
+
+    private static void MergePass(int[] arr, int k, int n)
+    {
+        int i = 0;
+        int j;
+
+        // 从前->后,将2个长度为k的子序列合并为1个
+        while(i < n - 2*k + 1)
+        {
+            merge(arr, i, i + k-1, i + 2*k - 1);
+            // 参数2 = 距离长度
+            // 参数3、4 = 合并的位置，如合并第1个 & 第2个位置的元素到新建的数组中
+            i += 2*k;
+        }
+
+        // 该代码的作用：保证将最后“落单”的、长度不足两两合并的部分 和 前面的合并起来
+        if(i < n - k )
+        {
+            merge(arr, i, i+k-1, n-1);
+        }
+
+    }
+
+    /**
+     * 归并排序算法实现：递归
      * 参数说明：
      * @param arr = 需排序的数组序列
      * @param low = 数组第1个元素下标
@@ -44,6 +90,8 @@ public class MergeSort {
      */
 
     public static void merge(int[] arr, int low, int mid, int high) {
+
+        // 辅助数组 = 暂存合并的结果
         int[] temp = new int[high - low + 1];
 
         int i = low; // 左指针
