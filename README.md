@@ -1,7 +1,6 @@
-具体请看如下博客：
+请看我的博客：
 
 # CSDN博客
-
 http://blog.csdn.net/carson_ho
 
 # 简书博客
