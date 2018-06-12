@@ -1,4 +1,4 @@
-请看我的博客：
+请看我以下博客：
 
 # CSDN博客
 http://blog.csdn.net/carson_ho
